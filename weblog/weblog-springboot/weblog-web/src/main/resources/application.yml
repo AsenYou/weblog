@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    # 默认激活 dev 环境
+    active: dev
+
+
+jwt:
+  # 签发人
+  issuer: quanxiaoha
+  # 密钥
+  secret: QcxK2urCVVjRpyMhiBKRRt7dYMcHI9Xyw5RNqPy4KueI3Wr9GnalwBmiElGjW+Z0YJZRut0EvwCKifi8W5F2Zw==
+

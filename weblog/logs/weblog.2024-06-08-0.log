@@ -1,0 +1,28 @@
+[TraceId: ] 2024-06-08 15:05:31.777 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_291 on 阿森油Asus with PID 3600 (D:\workspace\weblog\weblog-springboot\weblog-web\target\classes started by ASUS in D:\workspace\weblog\weblog-springboot)
+[TraceId: ] 2024-06-08 15:05:31.778 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-06-08 15:05:32.524 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-06-08 15:05:32.530 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-06-08 15:05:32.530 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-06-08 15:05:32.594 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-06-08 15:05:32.594 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 778 ms
+[TraceId: ] 2024-06-08 15:05:32.924 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-06-08 15:05:32.929 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 1.6 seconds (JVM running for 2.283)
+[TraceId: ] 2024-06-08 15:06:00.872 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-06-08 15:06:00.872 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-06-08 15:06:00.872 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[TraceId: ] 2024-06-08 15:06:00.964 [http-nio-8080-exec-2] INFO  c.q.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":1}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: ] 2024-06-08 15:06:00.974 [http-nio-8080-exec-2] INFO  c.q.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 24ms, 出参: {"username":"admin","sex":1} =================================== 
+[TraceId: ] 2024-06-08 15:11:04.635 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_291 on 阿森油Asus with PID 14228 (D:\workspace\weblog\weblog-springboot\weblog-web\target\classes started by ASUS in D:\workspace\weblog\weblog-springboot)
+[TraceId: ] 2024-06-08 15:11:04.646 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-06-08 15:11:05.398 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-06-08 15:11:05.405 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-06-08 15:11:05.405 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-06-08 15:11:05.467 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-06-08 15:11:05.468 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 784 ms
+[TraceId: ] 2024-06-08 15:11:05.770 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-06-08 15:11:05.775 [main] INFO  com.quanxiaoha.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 1.575 seconds (JVM running for 2.338)
+[TraceId: ] 2024-06-08 15:11:16.183 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-06-08 15:11:16.183 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-06-08 15:11:16.184 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: 23693864-d81b-4d9e-8b16-396ba078bb64] 2024-06-08 15:11:16.278 [http-nio-8080-exec-2] INFO  c.q.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":1}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 23693864-d81b-4d9e-8b16-396ba078bb64] 2024-06-08 15:11:16.287 [http-nio-8080-exec-2] INFO  c.q.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 22ms, 出参: {"username":"admin","sex":1} =================================== 
